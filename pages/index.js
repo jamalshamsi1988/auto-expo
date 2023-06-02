@@ -1,9 +1,20 @@
+import AllButton from "../components/modules/AllButton";
+import Categories from "../components/modules/Categories";
+import SearchBar from "../components/modules/SearchBar";
+import CarsPage from "../components/templates/CarsPage";
+import carsData from "../data/carsData";
 
 
-export default function Home() {
+ function Home() {
+  const cars=carsData.slice(0,3);
   return (
     <div>
-    <h1>hai</h1>
+      
+    <SearchBar />
+      <Categories />
+      <AllButton />
+      <CarsPage data={cars}  />
     </div>
   )
 }
+export default Home;
