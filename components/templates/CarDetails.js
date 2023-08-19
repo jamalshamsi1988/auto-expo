@@ -12,7 +12,7 @@ const CarDetails = (props) => {
     console.log(props)
   return (
     <div className={styles.container}>
-        <img className={styles.image} src={image} />
+        <img className={styles.image} src={image} target="_blank" rel="noreferrer" />
         <h3 className={styles.header}>{name} {model}</h3>
     <div className={styles.details}>
     <div>

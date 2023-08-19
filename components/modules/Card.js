@@ -7,7 +7,7 @@ const Card = (props) => {
   return (
     <Link href={`/cars/${id}`}>
     <div className={styles.container}>
-      <img className={styles.image} src={image} alt={name} />
+      <img className={styles.image} src={image} alt={name} target="_blank" rel="noreferrer" />
       <h4 className={styles.title}>{`${name} ${model}`}</h4>
       <p className={styles.detail}>{`${year} . ${distance}`}</p>
       <div className={styles.footer}>
