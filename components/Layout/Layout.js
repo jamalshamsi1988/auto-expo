@@ -12,7 +12,7 @@ const Layout = ({children}) => {
       </Link>
       <div className={styles.container}>{children}</div>
       <footer className={styles.footer}>
-        <a href="https://github.com/jamalshamsi1988/auto-expo" target="_blank">
+        <a href="https://github.com/jamalshamsi1988/auto-expo" target="_blank" rel="noreferrer">
             Jamal Shamsi Next.js | Car shope project &copy;
         </a>
       </footer>
